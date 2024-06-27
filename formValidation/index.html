@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <script src="index.js"></script>
+  <style>
+    input {
+      margin-top: 30px;
+      border-radius: 30px;
+      text-align: center;
+    }
+    label {
+      font-size: 25px;
+    }
+    button {
+      margin-top: 30px;
+      margin-left: 50px;
+      border-radius: 30px;
+      background-color: rgb(231, 224, 91);
+      width: 130px;
+      height: 30px;
+      font-size: 20px;
+    }
+    .container {
+      background-color: rgb(103, 200, 213);
+      padding: 50px;
+      width: 500px;
+      border-radius: 30px;
+      text-align: center;
+      margin-top: 200px;
+      margin-left: 500px;
+    }
+  </style>
+  <body>
+    <form id="myform" onsubmit="handleSubmit(event)">
+      <div class="container">
+        <label for="">username <input type="text" name="name" /></label>
+        <br />
+        <label for="" id="email"
+          >email <input type="email" name="email"
+        /></label>
+        <br />
+        <label for="">password<input type="password" name="password" /></label>
+        <br />
+
+        <button type="submit">LOGIN</button>
+      </div>
+    </form>
+  </body>
+</html>
